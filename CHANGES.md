@@ -8,3 +8,4 @@
 - hide X-Powered-By header with helmet.hidePoweredBy()
 - disable app framing with helmet.frameguard({ action: 'deny'})
 - enable xssFilter with helmet.xssFilter()
+- prevent browsers from bypassing the provided Content-Type
