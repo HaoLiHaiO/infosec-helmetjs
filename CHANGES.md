@@ -13,3 +13,4 @@
 - set Strict Transport Security header with helmet.hsts()
 - disable DNS prefetching with helmet.dnsPrefetchControl({allow: false})
 - disable caching with helmet.noCache()
+- set a Content Security Policy with helmet.contentSecurityPolicy()
