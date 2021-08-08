@@ -12,3 +12,4 @@
 - set X-Download-Options to noopen with helmet.ieNoOpen()
 - set Strict Transport Security header with helmet.hsts()
 - disable DNS prefetching with helmet.dnsPrefetchControl({allow: false})
+- disable caching with helmet.noCache()
