@@ -11,6 +11,8 @@ app.use(helmet.ieNoOpen());
 const nineDaysinSeconds = 90 * 24 * 60 * 60
 app.use(helmet.hsts({ maxAge: nineDaysinSeconds, force: true }))
 
+app.use(helmet.dnsPrefetchControl({ allow: false }))
+
 
 
 
